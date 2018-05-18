@@ -182,7 +182,7 @@ void Visualizer_GLUT::initializeGL(int *argcp, char **argv)
 {
   glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB | GLUT_DEPTH);
   glutInitWindowPosition(200, 200);
-  glutInitWindowSize(800, 600);
+  glutInitWindowSize(1067, 600);
   _glutWindowNum = glutCreateWindow("Simulator!");
 
   glutMotionFunc(&_g_OnMouseMove);
